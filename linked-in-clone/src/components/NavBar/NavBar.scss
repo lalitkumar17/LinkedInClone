@@ -1,3 +1,10 @@
 .navbar{
-    
+border: 1px green solid;
+display: flex;
+    &__image{
+        object-fit: contain;
+        height: 10px;
+        border: 1px red solid;
+
+    }
 }

@@ -3,7 +3,11 @@ import "./NavBar.scss";
 import { images } from "../../constent/images";
 
 const NavBar = () => {
-  return <img src={images.linkedin} alt="" className="navbar__image" />;
+  return (
+    <div className="navbar">
+      <img src={images.linkedin} alt="" className="navbar__image" />
+    </div>
+  );
 };
 
 export default NavBar;
