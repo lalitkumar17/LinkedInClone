@@ -5,14 +5,19 @@
 border: 1px green solid;
 padding: 1rem 0;
 display: flex;
-justify-content: space-between;
+justify-content: space-evenly;
+
+&__left{
+    display: flex;
+    align-items: center;
+}
+
     &__image{
         object-fit: contain;
         height: 2.5rem;
     }
 
     &__search-box{
-      border: 1px red solid;
       display: flex;
       align-items: center;
       background-color: $color-gray;
@@ -32,5 +37,14 @@ justify-content: space-between;
            font-size: 1.2rem;
            
        }
+    
     }
+
+// menu
+&__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 }
