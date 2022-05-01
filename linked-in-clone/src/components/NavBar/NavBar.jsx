@@ -3,7 +3,8 @@ import "./NavBar.scss";
 import { images } from "../../constent/images";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeIcon from '@mui/icons-material/Home';
-import Menu from "../../components/Menu/Menu"
+import Menu from "../../components/Menu/Menu";
+
 
 const NavBar = () => {
   return (
@@ -23,6 +24,8 @@ const NavBar = () => {
       <Menu Icon = {HomeIcon} name = "Jobs"/>
       <Menu Icon = {HomeIcon} name = "Messaging"/>
       <Menu Icon = {HomeIcon} name = "Notifications"/>
+      <Menu avatar={images.profile} name = "me"/>
+       
    </div>
      
   
