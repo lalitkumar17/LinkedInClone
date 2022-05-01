@@ -1,5 +1,8 @@
+@import '../../scss/global-variable';
 .menu{
+    cursor: pointer;
     text-align: center;
+    color: gray;
     padding: 0 1rem;
 
     &__icon{
@@ -10,4 +13,8 @@
         font-size: small;
         font-weight: 400;
     }
+
+    &:hover{
+        color: $color-black;
+}
 }
