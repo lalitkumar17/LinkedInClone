@@ -7,7 +7,7 @@ const Menu = ({avatar, Icon, name}) => {
   return (
     <div className='menu'>
     {Icon && <Icon  className = "menu__icon" />}
-    {avatar && <Avatar  src = {avatar}/>}
+    {avatar && <Avatar className='menu__profile-icon' src = {avatar}/>}
     <h1>{name}</h1>
     </div>
   )

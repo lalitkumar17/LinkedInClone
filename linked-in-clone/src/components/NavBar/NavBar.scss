@@ -2,7 +2,6 @@
 @import '../../scss/global-variable';
 
 .navbar{
-border: 1px green solid;
 padding: 1rem 0;
 display: flex;
 justify-content: space-evenly;
@@ -15,6 +14,7 @@ justify-content: space-evenly;
     &__image{
         object-fit: contain;
         height: 2.5rem;
+        margin-right: 1rem;
     }
 
     &__search-box{
